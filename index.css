@@ -34,10 +34,10 @@ body {
 
 nav{
     background-color: #000000;
-    position: absolute;
+    position: fixed;
     margin: 0;
     z-index: 10;
-    width: 100%;
+    width: 100% ;
     height: var(--sizeNavBar);
     display: grid;
     grid-template-columns: 5% 85% 10%;
@@ -60,7 +60,7 @@ nav ul {
 nav ul li {
     border: gray inset 2px ;
     background-color: gray;
-    padding: 13px;
+    padding: 1%;
     margin-right: 2%;
     
 }
@@ -391,3 +391,4 @@ footer{
     padding: 20px;
     text-align: left;
 }
+
