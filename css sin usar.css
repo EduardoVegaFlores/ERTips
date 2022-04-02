@@ -1,0 +1,137 @@
+#contenidoBannerSlide{
+
+    
+    height: 780px;
+    width: 1450px;
+    margin-left: 14%;
+    overflow: hidden;
+
+}
+
+.itemBannerSlide{
+    
+    height: 780px;
+    width: 1450px;
+    position: relative;
+
+}
+
+.imagenesBannerSlide{
+    height: 100%;
+
+}
+
+.flechasBannerSlide{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+
+#imagenBanner-1{
+    height: 100%;
+    width: 100%;
+
+}
+
+#imagenBanner-1{
+    height: 100%;
+    width: 100%;  
+
+   }
+
+ #imagenBanner-1{
+    height: 100%;
+    width: 100%;
+
+ }
+
+ .imgBanner{
+     height: 780px;
+     width: 1450px;
+
+ }
+
+ i{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+
+ }
+
+ .imagenNoticia{
+    height: 250px;
+    width: 450px;
+    
+    
+
+ }
+
+ #contenidoNoticias{
+
+        display: grid;
+        grid-template-columns: 40% 40% 60%;
+        grid-template-rows: 50% 50% ;
+        row-gap: 3%;
+        margin-right: 0;
+        margin-left: 15%;
+
+ }
+
+
+ #masInfoButton{
+
+    
+    float: right;
+
+}
+
+
+ .masInfo{
+
+     position: absolute;
+     text-decoration: none;
+     color: white;
+
+ }
+
+h2 {
+    margin-left: 8%;
+}
+
+/* <div id="contenidoBannerSlide"> 
+<div class="itemBannerSlide" >
+    <div class="imagenesBannerSlide" >
+        <img class="imgBanner"  id="itemBanner-1" src="./IMAGENES/WALLPAPERS/WALLPAPER ELENA.png" alt="CHERRY BLOSSOM">
+    </div>
+    <div class="flechasBannerSlide" >
+          <a href="#itemBanner-3"> <i class="fa-solid fa-chevron-left"></i> </a>
+          <a href="#itemBanner-2"> <i class="fa-solid fa-chevron-right"></i> </a>
+    </div>
+</div>
+<div class="itemBannerSlide" >
+    <div class="imagenesBannerSlide" id="imagenBanner-2">
+        <img class="imgBanner" id="itemBanner-2" src="./IMAGENES/WALLPAPERS/WALLPAPER GHOST.png" alt="CHERRY BLOSSOM">
+    </div>
+    <div class="flechasBannerSlide">
+        <a href="#itemBanner-1"> <i class="fa-solid fa-chevron-left"></i></a>
+        <a href="#itemBanner-3"> <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+</div>
+<div class="itemBannerSlide" >
+    <div class="imagenesBannerSlide" id="imagenBanner-3">
+        <img class="imgBanner" id="itemBanner-3" src="./IMAGENES/WALLPAPERS/WALLPAPER WINTER.png" alt="CHERRY BLOSSOM">
+    </div>
+    <div class="flechasBannerSlide">
+        <a href="#itemBanner-2"> <i class="fa-solid fa-chevron-left"></i> </a>
+        <a href="#itemBanner-1"> <i class="fa-solid fa-chevron-right"></i> </a>
+    </div>
+</div>
+
+</div>*/
