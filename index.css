@@ -342,7 +342,7 @@ nav ul li a{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     column-gap: 1%;
-    margin-left: 10%;
+    margin-left: 6%;
 }
 
 #preFooter{
@@ -354,6 +354,11 @@ nav ul li a{
 
 #preFooter-1 a{
     margin-left: 20%;
+}
+
+.imgDiscord{
+    width: 55%;
+    height: 70%;
 }
 
 #preFooter-1 p{
@@ -384,7 +389,5 @@ footer{
     background: #000;
     width: 100%;
     padding: 20px;
-
     text-align: left;
-
 }
