@@ -109,77 +109,33 @@ content{
   h2 {
     text-align: center;
     font-size: 40px;
-}
+}   
 
-#noticiaBanner{
-    height: 100%;
-    width: 100%;
+ .imgPersonaje{
 
-}
-
-#noticiaBanner img{
-    height: 100%;
-    width: 60%;
-    margin-left: 20%;
-}
-
-#noticiaBanner iframe{
-    height: 700px;
-    width: 60%;
-    margin-left: 20%;
-}
-
-#noticiaBanner h3{
-    font-size: 30px;
-    text-align: center;
-}
-
-#noticiaBanner p{
-    text-align: center;
-}
-
-.p-emphasis{
-    font-size: 20px;
-    font-weight: 800;
-
-}
-
-.sub_h2 {
-    text-align: left;
-    margin-left: 6%;
-}
-
-#listaNoticias{
-    list-style: none;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    column-gap: 3%;
-    grid-template-rows: 45% 45%;
-    row-gap: 11%;
-    margin-left: 5%;
-    margin-top: 2%;  
-}
-
-
-#noticia {
     width: max-content;
     height: max-content;
 
-}
+ }
 
-#noticia span{
-    font-size: 20px;
-}
+ #personajes{
 
-.masInfo{
-    text-decoration: none;
-    color: white;
-    margin-left: 80%;
-}
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    row-gap: 2%;
+    margin-left: 16%;
+    margin-right: 16%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 11%;
+    
+ }
 
-
-.img_mas_noticias{
-    width: 490px;
-    height: 275px;
-}
-
+ #personajes a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+ }
