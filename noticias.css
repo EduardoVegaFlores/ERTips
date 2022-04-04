@@ -12,6 +12,7 @@ body {
     background-color: #151516;
     color:white;
     font-family: "Segoe UI", Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 .logo{
@@ -142,3 +143,43 @@ nav ul li a{
     font-weight: 800;
 
 }
+
+.sub_h2 {
+    text-align: left;
+    margin-left: 6%;
+}
+
+#listaNoticias{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 3%;
+    grid-template-rows: 45% 45%;
+    row-gap: 11%;
+    margin-left: 5%;
+    margin-top: 2%;  
+}
+
+
+#noticia {
+    width: max-content;
+    height: max-content;
+
+}
+
+#noticia span{
+    font-size: 20px;
+}
+
+.masInfo{
+    text-decoration: none;
+    color: white;
+    margin-left: 80%;
+}
+
+
+.img_mas_noticias{
+    width: 490px;
+    height: 275px;
+}
+
