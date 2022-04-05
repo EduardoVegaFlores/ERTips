@@ -1,0 +1,167 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    --sizeNavBar:113px;
+    box-sizing: border-box;
+    
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+
+
+body {
+    background-color: #151516;
+    color:white;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.logo{
+    height: 107px;
+    width: 114px;
+    float: left;
+    margin-left: 7%;
+    margin-top: 7%; 
+}
+
+.logo-oficial{
+
+    height: 90px;
+    width: 153px;
+    margin-top: 7%;
+    padding: 0;
+}
+
+
+
+nav{
+    background-color: #000000;
+    position: fixed;
+    margin: 0;
+    z-index: 10;
+    width: 100% ;
+    height: var(--sizeNavBar);
+    display: grid;
+    grid-template-columns: 5% 85% 10%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+
+}
+
+nav ul li {
+    border: gray inset 2px ;
+    background-color: gray;
+    padding: 1%;
+    margin-right: 2%;
+    
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+footer{
+
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+#wallpapers{
+    display: grid;
+    grid-template-areas: 
+
+        "wallpaper-1 wallpaper-1 wallpaper-2"
+        "wallpaper-1 wallpaper-1 wallpaper-3"
+        "wallpaper-4 wallpaper-5 wallpaper-5"
+        "wallpaper-4 wallpaper-5 wallpaper-5"
+        "wallpaper-6 wallpaper-6 wallpaper-6"
+        "wallpaper-6 wallpaper-6 wallpaper-6"   
+    ;
+
+    grid-template-columns: auto auto auto;
+
+    grid-template-rows: auto auto auto auto;
+
+    row-gap: none;
+    column-gap: none;
+
+    margin: 1% 10% 3% 10%;
+}
+
+#wallpaper-1{
+    grid-area: wallpaper-1;
+}    
+#wallpaper2{
+    grid-area: wallpaper-2;
+}    
+#wallpaper-3{
+    grid-area: wallpaper-3;
+}    
+#wallpaper-4{
+    grid-area: wallpaper-4;
+}    
+#wallpaper-5{
+    grid-area: wallpaper-5;
+}    
+#wallpaper-6{
+    grid-area: wallpaper-6;
+}
+
+.imgWallpaper{
+    height: 100%;
+    width: 100%;
+}
+
+.masInfo {
+    text-align: right;
+    margin-right: 8%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#bandaSonora{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2%;
+    margin: 1% 5% 5% 5%;
+    justify-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#bandaSonora audio{
+    width: 100%;
+}
