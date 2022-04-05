@@ -4,84 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contactanos.css">
     <title>Contactanos</title>
 </head>
 <body>
     
-    <a href="./index.html"><img src="./IMAGENES/ICONOS/ERTips_Logo.jpg" alt="LOGO ERTIPS" height="112" width="119"></a>
-    <ul type="square">
-        <li> <a href="./QUIENES_SOMOS.html"> QUIENES SOMOS</a></li>
-        <li> <a href="./NOTICIAS.HTML"> NOTICIAS</a></li>
-        <li> <a href="./BUILDS.HTML"> BUILDS</a></li>
-        <li> <a href="./STREAMERS.html"> STREAMERS</a></li>
-        <li> <a href="./MULTIMEDIA.html"> MULTIMEDIA</a></li>
-        <li> <a href="./Contactanos.html"> CONTACTANOS</a></li>
-    </ul>
+    <header>
 
-    <ol type="1">
+        <nav>
+            <a href="./index.html"><img class="logo" src="./IMAGENES/ICONOS/logo_ertips_gris.png" alt="LOGO ERTIPS"></a>
+    
+    
+            <ul>
+                <li> <a href="./QUIENES_SOMOS.html"> QUIENES SOMOS</a></li>
+                <li> <a href="./NOTICIAS.html"> NOTICIAS</a></li>
+                <li> <a href="./BUILDS.html"> BUILDS</a></li>
+                <li> <a href="./STREAMERS.html"> STREAMERS</a></li>
+                <li> <a href="./MULTIMEDIA.html"> MULTIMEDIA</a></li>
+                <li> <a href="./Contactanos.html"> CONTACTANOS</a></li>
+            </ul>
+    
+            <a href="https://playeternalreturn.com/main" title="Ir a la pagina oficial de eternal return" target="blank"><img class="logo-oficial" src="./IMAGENES/BANNER/ER Logo White.png" alt="LINK A LA PAGINA OFICIAL DE ETERNAL RETURN"></a>
+    
+        </nav>
+    
+    </header>
 
-        <li>¿SABES EDITAR?</li>
-        <li>¿TIENES UN CANAL RELACIONADO A ETERNAL RETURN?</li>
-        <li>¿QUIERES COMPARTIR ALGUNA BUILD?</li>
-        <li>¿TIENES ALGUNA CONSULTA QUE QUIERAS REALIZARNOS?</li>
-        <li>¿SABES EDITAR?</li>
-        <li>¿SABES EDITAR?</li>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    </ol>
+    <div id="requisitos">
 
-    <img src="./IMAGENES/PERSONAJES/ALFABETICO/Nathapon/Default_Full.png" alt="IMAGEN NATHAPON" width="240" height="617">
+        <div id="requisitosTexto">
+            <ol>
 
-    <h2>CONTACTANOS</h2>
+                <li>¿SABES EDITAR?</li>
+                <br>
+                <li>¿TIENES UN CANAL RELACIONADO A ETERNAL RETURN?</li>
+                <br>
+                <li>¿QUIERES COMPARTIR ALGUNA BUILD?</li>
+                <br>
+                <li>¿TIENES ALGUNA CONSULTA QUE QUIERAS REALIZARNOS?</li>
+                <br>
+                <li>¿QUIERES FORMAR PARTE DE NUESTRO EQUIPO?</li>
+        
+            </ol>
+        </div>
 
-    <p>Envianos un mensaje al correo ERTIPS@gmail.com o llena el siguiente formulario.</p>
+        <div id="requisitosImagen">
+            <img src="./IMAGENES/PERSONAJES/ALFABETICO/Nathapon/Default_Full.png" alt="IMAGEN NATHAPON">
+        </div>
 
-    <form action="">
-        <fieldset>
-            <legend>FORMULARIO</legend>
+    </div>
 
-            <img src="./IMAGENES/OTROS/PROFILE PICTURE.jpg" alt="IMAGEN DE PRUEBA" height="128" width="128">
-            <br>
-            <p>  SUBE TU FOTO DE PERFIL <br><br> <input type="file" > </p>
+    <div class="container">
+        <div class="row">
+                <h1>CONTACTANOS</h1>
+                <br>
+        </div>
+        <div class="row">
+                <h4 style="text-align:center">Envianos un mensaje al correo ERTIPS@gmail.com o llena el siguiente formulario</h4>
+        </div>
+        <div class="row input-container">
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" required />
+                        <label>Nombre</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input">
+                        <input type="text" required />
+                        <label>Email</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input" style="float:right;">
+                        <input type="text" required />
+                        <label>Celular</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea required></textarea>
+                        <label>Mensaje</label>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="btn-lrg submit-btn">Send Message</div>
+                </div>
+        </div>
+    </div>
 
-            <p> NOMBRES : <input type="text" placeholder="Escribe tus nombres" required> <br> </p>
-            <p> APELLIDOS : <input type="text" placeholder="Escribe tus apellidos" required> <br> </p>
-            <p> CORREO : <input type="email" placeholder="Escribe tu correo" required> <br> </p>
-            <p>GENERO:</p>
-            <p> HOMBRE<input type="radio" name="genero" value="hombre"><br></p>
-            <p> MUJER<input type="radio" name="genero" value="mujer" ><br> </p>
-            <p> SIN ESPECIFICAR<input type="radio" name="genero" value="sin especificar" checked><br> </p>
-            <p>FECHA DE NACIMIENTO: <input type="date"></p>
-            <p>NACIONALIDAD <select name="PAIS" id="NACIONALIDAD">
-                <option >PERÚ</option>
-                <option >ARGENTINA</option>
-                <option >VENEZUELA</option>
-                <option >BOLIVIA</option>
-                <option >OTROS </option>
-            </select>
-            </p>
-            <label for="terminos"> 
-                ACEPTAS NUESTROS TERMINOS Y CONDICIONES
-                <input type="checkbox" input id="terminos" required> 
-            </label>
-            <br>
-            <br>
-            <label for="correo"> 
-                VINCULAR EL CORREO PARA RECIBIR NOTICIAS
-                <input type="checkbox" input id="correo"> 
-            </label>
-            <br>
-            <br>
-            <textarea name="MENSAJE" id="" cols="30" rows="10" placeholder="ESCRIBENOS UN MENSAJE">
-            </textarea>
-            <br>
-            <br>
-            <input type="reset" value="Limpiar">
-            <input type="submit" value="Enviar">
-            
-            
-        </fieldset>
-    </form>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>  © 2021-2022 Eternalreturntips Todos los derechos reservados. </p>
+    </footer>
 
 
 
