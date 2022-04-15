@@ -505,7 +505,7 @@ margin-right: 8%;
 
 #preFooterContainer{
 margin-top: 2%;
-background-image: url("../IMAGENES/BANNER/background.jpg");
+background-image: url("./IMAGENES/BANNER/background.jpg");
 padding: 1% 5% 5% 5%;
 }
 
