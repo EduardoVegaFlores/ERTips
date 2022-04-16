@@ -976,3 +976,56 @@ footer{
     padding: 20px;
     text-align: left;
 }
+
+
+div id="contenidoQuienesSomos">
+    <div id="imagenQuienesSomos">
+    <img src="./IMAGENES/PERSONAJES/ALFABETICO/Emma/WITCH EMMA/Skin_Full_S002.png" alt="EMMA" height="841" width="800">
+    </div>
+
+    <div id="quienesSomos">   
+    <p>Somos un grupo de personas que se dedican de manera voluntaria en la labor de ayudar a crecer la comunidad de Eternal Return en Latinoamerica, esto se debe a nuestro cariño tanto al juego como a la comunidad. </p>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <h2>NUESTRO EQUIPO</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div id="nuestroEquipo">
+
+    <img src="./IMAGENES/PERSONAL/CIRCULOS/DIEGOREY.png" alt="DIEGOREY" > </img>
+    <img src="./IMAGENES/PERSONAL/CIRCULOS/Imagen7.png" alt="SHIZUNO" > </img>
+    <img src="./IMAGENES/PERSONAL/CIRCULOS/REPOIOWO.png" alt="EDUARDO" > </img>
+    <p>DIEGOREY</p>
+    <p>SHIZUNO</p>
+    <p>ASESORDEMOVISTAR</p>
+    <img src="./IMAGENES/PERSONAL/CIRCULOS/MAPPOWO.png" alt="MAPPO" > </img>
+    <img src="./IMAGENES/PERSONAL/CIRCULOS/TAKOS.png" alt="ELTAKOS" > </img>
+    <img src="./IMAGENES/PERSONAL/CIRCULOS/SIBA.png" alt="SIBARTORA" > </img>
+    <p>MAPPO</p>
+    <p>ELTAKOS</p>
+    <p>SIBARTORA</p>
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
