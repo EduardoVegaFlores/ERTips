@@ -1029,3 +1029,349 @@ div id="contenidoQuienesSomos">
     <br>
     <br>
     <br>
+
+
+    
+<header>
+
+    <nav>
+        <a href="./index.html"><img class="logo" src="./IMAGENES/ICONOS/logo_ertips_gris.png" alt="LOGO ERTIPS"></a>
+
+
+        <ul>
+            <li> <a href="./QUIENES_SOMOS.html"> QUIENES SOMOS</a></li>
+            <li> <a href="./NOTICIAS.html"> NOTICIAS</a></li>
+            <li> <a href="./BUILDS.html"> BUILDS</a></li>
+            <li> <a href="./STREAMERS.html"> STREAMERS</a></li>
+            <li> <a href="./MULTIMEDIA.html"> MULTIMEDIA</a></li>
+            <li> <a href="./Contactanos.html"> CONTACTANOS</a></li>
+        </ul>
+
+        <a href="https://playeternalreturn.com/main" title="Ir a la pagina oficial de eternal return" target="blank"><img class="logo-oficial" src="./IMAGENES/BANNER/ER Logo White.png" alt="LINK A LA PAGINA OFICIAL DE ETERNAL RETURN"></a>
+
+    </nav>
+
+</header>
+
+<div class="content">
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>NOTICIAS RECIENTES</h2>
+    <br>
+    <br>
+
+    <div id="noticiaBanner">
+        <iframe 
+            src="https://www.youtube.com/embed/Y_jXopDUcAE?rel=0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+
+        <h3>NEW CHARACTER TEASER ELENA LORE</h3>
+
+        <p>Elena was a promising figure skater who fascinated those around
+            her with graceful movements on the cold ice. </p>
+
+        <p>Born in the winter, she was never bothered by the cold. The fire of her passionate heart kept her warm.
+            Her cold eyes, however, reflected the true nature of her icy heart.</p>
+
+        <p>What most people don't know is that Elena wasn't always like that.</p>
+
+        <p>She had been betrayed countless times by the people she loved and trusted. </p>
+
+        <p>Over time, she grew to become callous and fierce, unable to trust anyone.</p>
+
+        <p class="p-emphasis">Elena is now left with only her skates, her icy heart, and the power to turn anyone near her into ice!</p>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 class="sub_h2">TODAS LAS NOTICIAS</h2>  
+    <br>
+    <br>
+
+
+    <div id="listaNoticias">
+
+            <div id="noticia">
+
+                <a href="./PLACEHOLDER.html"><img class="img_mas_noticias" src="./IMAGENES/NOTICIAS/ELENA NEW.png" alt="ELENA"></a>
+                <br>
+                <span>New Character Teaser Elena Lore</span>
+                <br>
+                <a class="masInfo" href="./PLACEHOLDER.html">Leer más</a>
+        
+            </div>
+
+
+
+            <div id="noticia">
+
+                <a href="./PLACEHOLDER.html"><img class="img_mas_noticias" src="./IMAGENES/NOTICIAS/CHERRY BLOSSOM.png" alt="CHERRY BLOSSOM"></a>
+                <br>
+                <span>Cherry Blossom Coin Festival</span>
+                <br>
+                <br>
+                <a class="masInfo" href="./PLACEHOLDER.html">Leer más</a>
+
+            </div>
+
+
+
+            <div id="noticia">
+
+                <a href="./PLACEHOLDER.html"><img class="img_mas_noticias" src="./IMAGENES/NOTICIAS/HOTFIX.png" alt="NOTICIA"> </a>
+                <br>
+                <span>Account Suspensions - 2022.3.22</span>
+                <br>
+                <br>
+                <a class="masInfo" href="./PLACEHOLDER.html">Leer más</a>
+
+            </div>
+
+
+            <div id="noticia">
+
+                <a href="./PLACEHOLDER.html"><img class="img_mas_noticias" src="./IMAGENES/NOTICIAS/PATCH.png" alt="UPDATE"></a>
+                <br>
+                <span>Patch Notes 0.54.0</span>
+                <br>
+                <br>
+
+                <a class="masInfo" href="./PLACEHOLDER.html">Leer más</a>
+
+            </div>
+
+            <div  id="noticia">
+
+                <a href="./PLACEHOLDER.html"><img class="img_mas_noticias" src="./IMAGENES/NOTICIAS/MANTENIMIENTO COMPLETADO.png" alt="MANTENIMIENTO"></a>
+                <br>
+                <span>[Complete] Maintenance Notice</span>
+                <br>
+                <br>
+                <a class="masInfo" href="./PLACEHOLDER.html">Leer más</a>
+
+            </div>
+
+            <div  id="noticia">
+
+                <a href="./PLACEHOLDER.html"><img class="img_mas_noticias" src="./IMAGENES/NOTICIAS/PARTNERSHIP.png" alt="PARTNERSHIP"></a>
+                <br>
+                <span>Partnership Announcement: Gen.G x Eternal Return</span>
+                <br>
+                <br>
+                <a class="masInfo" href="./PLACEHOLDER.html">Leer más</a>
+
+            </div>
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>  © 2021-2022 Eternalreturntips Todos los derechos reservados. </p>
+    </footer>
+
+</div>
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    --sizeNavBar:113px;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    background-color: #151516;
+    color:white;
+    font-family: "Segoe UI", Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 107px;
+    width: 114px;
+    float: left;
+    margin-left: 7%;
+    margin-top: 7%; 
+}
+
+.logo-oficial{
+
+    height: 90px;
+    width: 153px;
+    margin-top: 7%;
+    padding: 0;
+}
+
+footer{
+
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+nav{
+    background-color: #000000;
+    position: fixed;
+    margin: 0;
+    z-index: 10;
+    width: 100% ;
+    height: var(--sizeNavBar);
+    display: grid;
+    grid-template-columns: 5% 85% 10%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+
+}
+
+nav ul li {
+    border: gray inset 2px ;
+    background-color: gray;
+    padding: 1%;
+    margin-right: 2%;
+    
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+
+
+content{
+    position: absolute;
+    top: calc(4% + var(--sizeNavBar));   
+}
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+
+  * {
+    -ms-overflow-style: none;
+  }
+  
+ 
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#noticiaBanner{
+    height: 100%;
+    width: 100%;
+
+}
+
+#noticiaBanner img{
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#noticiaBanner iframe{
+    height: 700px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#noticiaBanner h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+#noticiaBanner p{
+    text-align: center;
+}
+
+.p-emphasis{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.sub_h2 {
+    text-align: left;
+    margin-left: 6%;
+}
+
+#listaNoticias{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 3%;
+    grid-template-rows: 45% 45%;
+    row-gap: 11%;
+    margin-left: 5%;
+    margin-top: 2%;  
+}
+
+
+#noticia {
+    width: max-content;
+    height: max-content;
+
+}
+
+#noticia span{
+    font-size: 20px;
+}
+
+.masInfo{
+    text-decoration: none;
+    color: white;
+    margin-left: 80%;
+}
+
+
+.img_mas_noticias{
+    width: 490px;
+    height: 275px;
+}
+
