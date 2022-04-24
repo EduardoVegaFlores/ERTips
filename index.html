@@ -5,10 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index-2</title>
-    <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
 </head>
-<body>
-    <nav>
+<body style="background-color: #151516; color:white;">
+  
+  <nav class="fixed-top navbar navbar-expand-lg navbar-dark mb-5" style="background-color: black;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img src="./IMAGENES/ICONOS/logo_ertips_gris.png" alt="" width="70" height="70"></a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg m-auto" style="column-gap: 15px;">
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark btn-sm" href="./QUIENES_SOMOS.html">QUIENES SOMOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark btn-sm" href="./BUILDS.html">BUILDS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark btn-sm" href="./STREAMERS.html">STREAMERS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark btn-sm" href="./MULTIMEDIA.html">MULTIMEDIA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-dark btn-sm" href="./Contactanos.html">CONTACTANOS</a>
+        </li>
+      </ul>
+      <a class="navbar-brand d-none d-lg-block" href="#"><img class="img-fluid" src="./IMAGENES/ICONOS/ICONO PAGINA OFICIAL.png" alt="" width="150" height="150"></a>
+    </div>
+  </nav>
+  
+    <!-- <nav>
 
         <div id="contenedorLogo">
             <a href="./index.html"><img class="logo" src="./IMAGENES/ICONOS/logo_ertips_gris.png" alt="LOGO ERTIPS"></a>
@@ -27,92 +58,67 @@
             <a href="https://playeternalreturn.com/main" title="Ir a la pagina oficial de eternal return" target="blank"><img class="logo-oficial" src="./IMAGENES/BANNER/ER Logo White.png" alt="LINK A LA PAGINA OFICIAL DE ETERNAL RETURN"></a>
         </div>
 
-    </nav>
+    </nav> -->
 
 
 
     <main>
 
-      <section id="container-slider">	
-        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
-        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
-        <ul class="listslider">
-          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
-          <li><a itlist="itList_1" href="#"></a></li>
-          <li><a itlist="itList_2" href="#"></a></li>
-        </ul>
-        <ul id="slider">
-          <li style="background-image: url(./IMAGENES/WALLPAPERS/WALLPAPER\ ALPHA.jpg); z-index:0; opacity: 1;">
-          </li>
-          <li style="background-image: url(./IMAGENES/WALLPAPERS/WALLPAPER\ ELENA.png); ">
-          </li>
-          <li style="background-image: url(./IMAGENES/WALLPAPERS/WALLPAPER\ WINTER.png); ">
-          </li>
-       </ul>
-     </section>
+      <img class="img-fluid mt-5 d-none d-lg-block pt-4 " src="./IMAGENES/BANNER/Banner_ER_tips.png" alt=""  width="100%">
+      <img class="img-fluid mt-5 d-lg-none pt-4" src="./IMAGENES/BANNER/Banner.cortado.png" alt="" >
 
+      <h1 class="text-center pt-5"> 
+        BUILDS
+        <small class="text-muted"> Y ANUNCIOS</small>
+      </h1>
 
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div div class="elfsight-app-f09173e6-6aab-46be-9258-5363ca9422c5"></div> 
 
-        <h2>NOTICIAS</h2>
+      <a class="nav-link btn btn-dark btn-lg m-5" href="./BUILDS.html">BUILDS</a>
 
-   
+      <h1 class="text-center pb-5"> 
+        STREMEANDO
+        <small class="text-muted"> ahora o despues</small>
+      </h1>
 
-        <div id="contenidoNoticias">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
 
-        <img class="imagenNoticia" src="./IMAGENES/NOTICIAS/CHERRY BLOSSOM.png" alt="Descripción noticia 1">
-        <img class="imagenNoticia" src="./IMAGENES/NOTICIAS/ELENA NEW.png" alt="Descripción noticia 2">
-        <img class="imagenNoticia" src="./IMAGENES/NOTICIAS/MANTENIMIENTO COMPLETADO.png" alt="Descripción noticia 3">
-        <img class="imagenNoticia pantallaPequeña" src="./IMAGENES/NOTICIAS/PATCH.png" alt="Descripción noticia 4" >
-        <img class="imagenNoticia pantallaPequeña" src="./IMAGENES/NOTICIAS/HOTFIX.png" alt="Descripción noticia 5">
-        <img class="imagenNoticia pantallaPequeña" src="./IMAGENES/NOTICIAS/PARTNERSHIP.png" alt="Descripción noticia 6"><br>
+      
+          <div id="twitch-embed-1" class="col" style="flex-grow: 0 !important;" >
 
-        </div>
-
-        <a class="masInfo" href="./NOTICIAS.HTML"><p class="masInfo">MAS INFORMACIÓN</p></a>
-
-        <h2>TRANSMITIENDO AHORA</h2>
-
-
-        <div id="contenidoStreamers">
-
-
-
-
-        <div id="twitchIframe-1"  class="pantallaMuyPequeñaTwitch">
-          <div id="twitch-embed-1"></div>
-          <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-          <script type="text/javascript">
-              var options = {
-                  width: 550,
-                  height: 280,
-                  channel: "euir",
+          </div>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <script type="text/javascript">
+                var options = {
+                    width: 500,
+                    height: 280,
+                    channel: "ttvshizuno",
+                  };
+            var player = new Twitch.Player("twitch-embed-1", options);
+            player.setVolume(0.5);
+            </script>
+            
+          <div class="col" id="twitch-embed-2" style="flex-grow: 0 !important;" ></div>
+            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <script type="text/javascript">
+                var options = {
+                    width: 500,
+                    height: 280,
+                    muted: true,
+                    channel: "euir",
                 };
-          var player = new Twitch.Player("twitch-embed-1", options);
-          player.setVolume(0.5);
-          </script>
-        </div>
-
-        <div id="twitchIframe-2" class="pantallaMuyPequeñaTwitch">
-          <div id="twitch-embed-2"></div>
-          <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-          <script type="text/javascript">
-              var options = {
-                  width: 550,
-                  height: 280,
-                  muted: true,
-                  channel: "ttvshizuno",
-              };
-          var player = new Twitch.Player("twitch-embed-2", options);
-          player.setVolume(0.5);
-          </script>
-        </div>
-
-        <div id="twitchIframe-3" class="pantallaPequeñaTwitch">
-          <div id="twitch-embed-3"></div>
+            var player = new Twitch.Player("twitch-embed-2", options);
+            player.setVolume(0.5);
+            </script>
+          </div>
+        <div class="row justify-content-center d-md-none d-lg-flex">
+          <div class="col d-sm-none d-lg-flex" id="twitch-embed-3" style="flex-grow: 0 !important;"></div>
           <script src="https://player.twitch.tv/js/embed/v1.js"></script>
           <script type="text/javascript">
             var options = {
-                  width: 550,
+                  width: 500,
                   height: 280,
                   muted: true,
                   channel: "josinya",
@@ -120,14 +126,11 @@
           var player = new Twitch.Player("twitch-embed-3", options);
           player.setVolume(0.5);
           </script>
-        </div>
-
-          <div id="twitchIframe-4" class="pantallaPequeñaTwitch">
-          <div id="twitch-embed-4"></div>
+          <div id="twitch-embed-4" class="col d-sm-none d-lg-flex" style="flex-grow: 0 !important;" ></div>
           <script src="https://player.twitch.tv/js/embed/v1.js"></script>
           <script type="text/javascript">
             var options = {
-                  width: 550,
+                  width: 500,
                   height: 280,
                   muted: true,
                   muted: true,
@@ -136,86 +139,49 @@
           var player = new Twitch.Player("twitch-embed-4", options);
           player.setVolume(0.5);
           </script>
-          </div>
-
         </div>
+      </div>
 
-        <div id="pantallaMuyPequeña">
+      <a class="nav-link btn btn-dark btn-lg m-5" href="./STREAMERS.html">STREAMERS</a>
 
-            <div>
-            <a href="www.google.com">
-              <img class="imagenNoticia" src="./IMAGENES/PERSONAL/CIRCULOS/Imagen7.png" alt="TTvShizuno">
-            </a> 
-            </div>
+      <div class="container-fluid p-5" style="background-image: url(./IMAGENES/BANNER/background.jpg);">
+      <h1 class="text-center pb-5"> 
+        UNETE A NUESTRA COMUNIDAD
+      </h1>
 
-            <div>
-                <a href="www.google.com">
-                    <img class="imagenNoticia" src="./IMAGENES/PERSONAL/CIRCULOS/EUIR.png" alt="TTvShizuno">
-                </a>
-            </div>
-            
-            <div>
-                <a href="www.google.com">
-                    <img class="imagenNoticia" src="./IMAGENES/PERSONAL/CIRCULOS/JOSINYA PNG.png" alt="TTvShizuno">
-                </a>
-            </div>
-            <div>
-                <a href="www.google.com">
-                    <img class="imagenNoticia" src="./IMAGENES/PERSONAL/CIRCULOS/MOGURO.png" alt="TTvShizuno">
-                </a>
-            </div>
-
+      <div class="row pl-5 pr-5">
+        <div class="col p-lg-5">
+          <a href="https://discord.gg/FHMv3AuJrj" target="blank"> <img class="img-fluid " src="./IMAGENES/ICONOS/logo_discord_gris.png" alt="ICONO DISCORD"></a>
         </div>
-
-
-        <a class="masInfo" href="./NOTICIAS.HTML"><p class="masInfo">MAS INFORMACIÓN</p></a>
-
-
-
-        <h2>BUILDS Y ANUNCIOS</h2>
-
-
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div div class="elfsight-app-f09173e6-6aab-46be-9258-5363ca9422c5"></div> 
-
-
-        <a class="masInfo2" href="./BUILDS.HTML"><p class="masInfo2">MAS BUILDS</p></a>
-
-        <div id="preFooterContainer">
-
-        <h3>UNETE A NUESTRA COMUNIDAD</h3>
-
-        
-        <div id="redesSociales">
-
-          <a href="https://discord.gg/FHMv3AuJrj" target="blank"> <img class="iconSize" src="./IMAGENES/ICONOS/logo_discord_gris.png" alt="ICONO DISCORD"></a>
-
-          <a href="https://www.youtube.com/channel/UCFLB6BfzNTXhgnV-mshw0Yg" target="blank"> <img class="iconSize"src="./IMAGENES/ICONOS/logo_youtube_gris.png" alt="ICONO YOUTUBE"></a>
-        
-          <a href="https://www.instagram.com/eternalreturntips/?hl=es" target="blank"> <img class="iconSize" src="./IMAGENES/ICONOS/logo_instagram_gris.png" alt="ICONO INSTAGRAM"></a>
-      
-          <a href="https://twitter.com/EternalReturnTi" target="blank"> <img class="iconSize" src="./IMAGENES/ICONOS/logo_twitter_gris.png"alt="ICONO TWITTER" ></a>
-          
-          <a href="https://www.twitch.tv/ttvshizuno" target="blank"> <img class="iconSize" src="./IMAGENES/ICONOS/logo_twitch_gris.png" alt="ICONO TWITCH"></a>    
-
+        <div class="col p-lg-5">
+          <a href="https://discord.gg/FHMv3AuJrj" target="blank"> <img class="img-fluid " src="./IMAGENES/ICONOS/logo_youtube_gris.png" alt="ICONO YOUTUBE"></a>
         </div>
-
-        <a href="https://discord.gg/FHMv3AuJrj" target="blank"><img class="imgDiscord" src="./IMAGENES/BANNER/PREFOOTER.png" alt="Imagen de Discord"></a>
+        <div class="col p-lg-5">
+          <a href="https://discord.gg/FHMv3AuJrj" target="blank"> <img class="img-fluid " src="./IMAGENES/ICONOS/logo_instagram_gris.png" alt="ICONO INSTAGRAM"></a>
         </div>
-      
+        <div class="col p-lg-5">
+          <a href="https://discord.gg/FHMv3AuJrj" target="blank"> <img class="img-fluid " src="./IMAGENES/ICONOS/logo_twitter_gris.png"alt="ICONO TWITTER"></a>
+        </div>
+        <div class="col p-lg-5">
+          <a href="https://discord.gg/FHMv3AuJrj" target="blank"> <img class="img-fluid " src="./IMAGENES/ICONOS/logo_twitch_gris.png" alt="ICONO TWITCH"></a>    
+        </div>
+      </div>
+      <img class="img-fluid" src="./IMAGENES/BANNER/PREFOOTER.png" alt="">  
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <script defer src="functions.js"></script>
+      </div>
 
-
-    </main>
-
+      <footer>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021-2022 Eternalreturntips Todos los derechos reservados
+        </div>
+      </footer>
+<!-- 
     <footer>
       
       <p class="footerGrande">  © 2021-2022 Eternalreturntips Todos los derechos reservados. </p>
       <p class="footerPequeño"> © ERTips derechos reservados. </p>
 
-    </footer>
+    </footer> -->
 
 </body>
 </html>
