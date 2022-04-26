@@ -1,141 +1,34 @@
-*{
+@media screen and (max-width: 680px){
+
+    a{
+        font-size: 90%;
+    }
     
-    margin: 0;
-    padding: 0;
-    --sizeNavBar:113px;
-    box-sizing: border-box;
     
-}
+    }
 
+ @media screen and (max-width: 510px){
 
-body {
-    background-color: #151516;
-    color:white;
-    font-family: "Segoe UI", Arial, sans-serif;
-    overflow-x: hidden;
-}
+        a{
+            font-size: 70%;
+        }
+        
+        
+        }
 
-.logo{
-    height: 107px;
-    width: 114px;
-    float: left;
-    margin-left: 7%;
-    margin-top: 7%; 
-}
+  @media screen and (max-width: 490px){
 
-.logo-oficial{
+        a{
+            font-size: 50%;
+        }
+        
+        
+        }       
+  @media screen and (max-width: 370px){
 
-    height: 90px;
-    width: 153px;
-    margin-top: 7%;
-    padding: 0;
-}
-
-footer{
-
-    background: #000;
-    width: 100%;
-    padding: 20px;
-    text-align: left;
-}
-
-
-
-nav{
-    background-color: #000000;
-    position: fixed;
-    margin: 0;
-    z-index: 10;
-    width: 100% ;
-    height: var(--sizeNavBar);
-    display: grid;
-    grid-template-columns: 5% 85% 10%;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 10%;
-
-}
-
-nav ul li {
-    border: gray inset 2px ;
-    background-color: gray;
-    padding: 1%;
-    margin-right: 2%;
-    
-}
-
-nav ul li a{
-
-    text-decoration: none;
-    color: white;
-}
-
-
-
-content{
-    position: absolute;
-    top: calc(4% + var(--sizeNavBar));   
-}
-  
-  *::-webkit-scrollbar {
-    width: 0;
-  }
-  
-  *::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    background: transparent;
-    border: none;
-  }
-
-  * {
-    -ms-overflow-style: none;
-  }
-  
- 
-
-  h2 {
-    text-align: center;
-    font-size: 40px;
-}   
-
- .imgPersonaje{
-
-    width: max-content;
-    height: max-content;
-
- }
-
- #personajes{
-
-    display: grid;
-    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
-    row-gap: 2%;
-    margin-left: 16%;
-    margin-right: 16%;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    padding-left: 1%;
-    margin-top: 2%;
-    margin-bottom: 11%;
-    
- }
-
- #personajes a{
-     text-decoration: none;
-     color: white;
-     font-size: 20px;
- }
+        a{
+            font-size: 40%;
+        }
+        
+        
+        }       
