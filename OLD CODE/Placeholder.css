@@ -1,0 +1,16 @@
+.imgPlaceholder{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 10%;
+    height: 10%;
+
+}
+
+.p-style{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}

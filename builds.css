@@ -1,34 +1,22 @@
-@media screen and (max-width: 680px){
+@media screen and (max-width: 680px) {
+  a {
+    font-size: 90%;
+  }
+}
 
-    a{
-        font-size: 90%;
-    }
-    
-    
-    }
+@media screen and (max-width: 510px) {
+  a {
+    font-size: 70%;
+  }
+}
 
- @media screen and (max-width: 510px){
-
-        a{
-            font-size: 70%;
-        }
-        
-        
-        }
-
-  @media screen and (max-width: 490px){
-
-        a{
-            font-size: 50%;
-        }
-        
-        
-        }       
-  @media screen and (max-width: 370px){
-
-        a{
-            font-size: 40%;
-        }
-        
-        
-        }       
+@media screen and (max-width: 490px) {
+  a {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 370px) {
+  a {
+    font-size: 40%;
+  }
+}
