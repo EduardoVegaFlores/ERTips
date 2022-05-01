@@ -98,3 +98,9 @@ button:focus {
 .thanks-message {
   display: none;
 }
+
+.navbar .nav-item .btn:hover{
+  font-size: 125% !important;
+  font-weight: 700;
+  transition: 0.5s;
+}

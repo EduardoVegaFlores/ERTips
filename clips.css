@@ -5,3 +5,11 @@ video::-webkit-media-controls-panel {
 video::-webkit-media-controls-panel:hover {
   opacity: 1;
 }
+
+
+.navbar .nav-item .btn:hover{
+  font-size: 125% !important;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
