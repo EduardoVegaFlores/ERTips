@@ -1,0 +1,7 @@
+video::-webkit-media-controls-panel{
+    opacity: 0;
+}
+
+video::-webkit-media-controls-panel:hover{
+    opacity: 1;
+}
