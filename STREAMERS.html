@@ -1,186 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="Streamers.css">
-    <title>Streamers</title>
-  </head>
-  <body style="background-color: #151516; color: white">
-    <nav
-      class="fixed-top navbar navbar-expand-lg navbar-dark"
-      style="background-color: black"
-    >
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="./index.html"
-          ><img
-            src="./IMAGENES/ICONOS/logo_ertips_gris.png"
-            alt=""
-            width="70"
-            height="70"
-        /></a>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul
-            class="navbar-nav mr-auto mt-2 mt-lg m-auto"
-            style="column-gap: 15px"
-          >
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-dark btn-sm"
-                href="./QUIENES_SOMOS.html"
-                >QUIENES SOMOS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-dark btn-sm" href="./BUILDS.html"
-                >BUILDS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-dark btn-sm" href="./STREAMERS.html"
-                >STREAMERS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-dark btn-sm" href="./Clips.html"
-                >CLIPS Y HIGHLIGHTS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-dark btn-sm" href="./Contactanos.html"
-                >CONTACTANOS</a
-              >
-            </li>
-          </ul>
-          <a class="navbar-brand d-none d-lg-block" href="#"
-            ><img
-              class="img-fluid"
-              src="./IMAGENES/ICONOS/ICONO PAGINA OFICIAL.png"
-              alt=""
-              width="150"
-              height="150"
-          /></a>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="Streamers.css">
+  <title>Streamers</title>
+</head>
 
-    <br />
-
-    <h2 class="mt-5 pt-5 pb-5 text-center">STREAMER ERTIPS</h2>
-
-    <div class="embed-responsive embed-responsive-21by9 m-auto">
-      <div id="twitch-embed"></div>
-      <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-      <script type="text/javascript">
-        var options = {
-          width: 800,
-          height: 400,
-          channel: "ttvshizuno",
-        };
-        var player = new Twitch.Player("twitch-embed", options);
-        player.setVolume(0.5);
-      </script>
-    </div>
-
-    <h2 class="mt-5 pt-5 pb-5 text-center">STREAMERS DE LA COMUNIDAD</h2>
-
-    <div
-      id="carousel"
-      class="carousel carousel-dark slide p-5"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="https://www.twitch.tv/elmoguro" target="blank"
-            ><img
-              class="d-block img-fluid m-auto"
-              src="./IMAGENES/PERSONAL/CIRCULOS/MOGURO.png"
-              alt="EL MOGURO"
-          /></a>
-
-          <h5 class="font-weight-bold text-center mt-3">EL MOGURO</h5>
-        </div>
-        <div class="carousel-item">
-          <a href="https://www.twitch.tv/xmappo" target="blank"
-            ><img
-              class="d-block img-fluid m-auto"
-              src="./IMAGENES/PERSONAL/CIRCULOS/MAPPOWO.png"
-              alt="JOSINYA"
-          /></a>
-
-          <h5 class="font-weight-bold text-center mt-3">MAPPO</h5>
-        </div>
-        <div class="carousel-item">
-          <a href="https://www.twitch.tv/euir" target="blank"
-            ><img
-              class="d-block img-fluid m-auto"
-              src="./IMAGENES/PERSONAL/CIRCULOS/EUIR.png"
-              alt="EUIR"
-          /></a>
-
-          <h5 class="font-weight-bold text-center mt-3">EUIR</h5>
-        </div>
-        <div class="carousel-item">
-          <a href="https://www.twitch.tv/ista_v" target="blank"
-            ><img
-              class="d-block img-fluid m-auto"
-              src="./IMAGENES/PERSONAL/CIRCULOS/ISTA PNG.png"
-              alt="EUIR"
-          /></a>
-
-          <h5 class="font-weight-bold text-center mt-3">ISTA_V</h5>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev h-50 bg-transparent border-0 m-auto"
-        type="button"
-        data-bs-target="#carousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<body style="background-color: #151516; color: white">
+  <nav class="fixed-top navbar navbar-expand-lg navbar-dark" style="background-color: black">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button
-        class="carousel-control-next h-50 bg-transparent border-0 m-auto"
-        type="button"
-        data-bs-target="#carousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
-    </div>
+      <a class="navbar-brand" href="./index.html"><img src="./IMAGENES/ICONOS/logo_ertips_gris.png" alt="" width="70"
+          height="70" /></a>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-
-    <footer>
-      <div
-        class="text-center p-4 mt-5"
-        style="background-color: rgba(0, 0, 0, 0.05)"
-      >
-        © 2021-2022 Eternalreturntips Todos los derechos reservados
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg m-auto" style="column-gap: 15px">
+          <li class="nav-item">
+            <a class="nav-link btn btn-dark btn-sm" href="./QUIENES_SOMOS.html">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-dark btn-sm" href="./BUILDS.html">BUILDS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-dark btn-sm" href="./STREAMERS.html">STREAMERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-dark btn-sm" href="./Clips.html">CLIPS Y HIGHLIGHTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-dark btn-sm" href="./Contactanos.html">CONTACTANOS</a>
+          </li>
+        </ul>
+        <a class="navbar-brand d-none d-lg-block" href="#"><img class="img-fluid"
+            src="./IMAGENES/ICONOS/ICONO PAGINA OFICIAL.png" alt="" width="150" height="150" /></a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </nav>
+
+  <br />
+
+  <h2 class="mt-5 pt-5 pb-5 text-center">STREAMER ERTIPS</h2>
+
+  <div class="embed-responsive embed-responsive-21by9 m-auto">
+    <div id="twitch-embed"></div>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="text/javascript">
+      var options = {
+        width: 800,
+        height: 400,
+        channel: "ttvshizuno",
+      };
+      var player = new Twitch.Player("twitch-embed", options);
+      player.setVolume(0.5);
+    </script>
+  </div>
+
+  <h2 class="mt-5 pt-5 pb-5 text-center">STREAMERS DE LA COMUNIDAD</h2>
+
+  <div id="carousel" class="carousel carousel-dark slide p-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://www.twitch.tv/elmoguro" target="blank"><img class="d-block img-fluid m-auto"
+            src="./IMAGENES/PERSONAL/CIRCULOS/MOGURO.png" alt="EL MOGURO" /></a>
+
+        <h5 class="font-weight-bold text-center mt-3">EL MOGURO</h5>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.twitch.tv/xmappo" target="blank"><img class="d-block img-fluid m-auto"
+            src="./IMAGENES/PERSONAL/CIRCULOS/MAPPOWO.png" alt="JOSINYA" /></a>
+
+        <h5 class="font-weight-bold text-center mt-3">MAPPO</h5>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.twitch.tv/euir" target="blank"><img class="d-block img-fluid m-auto"
+            src="./IMAGENES/PERSONAL/CIRCULOS/EUIR.png" alt="EUIR" /></a>
+
+        <h5 class="font-weight-bold text-center mt-3">EUIR</h5>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.twitch.tv/ista_v" target="blank"><img class="d-block img-fluid m-auto"
+            src="./IMAGENES/PERSONAL/CIRCULOS/ISTA PNG.png" alt="EUIR" /></a>
+
+        <h5 class="font-weight-bold text-center mt-3">ISTA_V</h5>
+      </div>
+    </div>
+    <button class="carousel-control-prev h-50 bg-transparent border-0 m-auto" type="button" data-bs-target="#carousel"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next h-50 bg-transparent border-0 m-auto" type="button" data-bs-target="#carousel"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <footer>
+    <div class="text-center p-4 mt-5" style="background-color: rgba(0, 0, 0, 0.05)">
+      © 2021-2022 Eternalreturntips Todos los derechos reservados
+    </div>
+  </footer>
+</body>
+
 </html>

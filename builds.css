@@ -15,13 +15,14 @@
     font-size: 50%;
   }
 }
+
 @media screen and (max-width: 370px) {
   a {
     font-size: 40%;
   }
 }
 
-.navbar .nav-item .btn:hover{
+.navbar .nav-item .btn:hover {
   font-size: 125% !important;
   font-weight: 700;
   transition: 0.5s;
