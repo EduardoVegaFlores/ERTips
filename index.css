@@ -3,3 +3,23 @@
   font-weight: 700;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 440px) {
+  #twitch-embed-1 {
+    margin: 0;
+    padding: 0;
+  }
+  #twitch-embed-2 {
+    margin: 0;
+    padding: 0;
+  }
+  #twitch-embed-3 {
+    margin: 0;
+    padding: 0;
+  }
+  #twitch-embed-4 {
+    margin: 0;
+    padding: 0;
+  }
+
+}
