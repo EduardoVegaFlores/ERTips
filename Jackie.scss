@@ -1,0 +1,12 @@
+$colorPrincipal: #151516;
+$colorSecundario: white;
+$colorFuerte:black;
+
+body{
+    background-color: $colorPrincipal !important;
+    color: $colorSecundario !important;
+}
+
+footer{
+    background-color: $colorFuerte;
+}
