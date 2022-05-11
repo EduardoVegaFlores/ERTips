@@ -104,3 +104,7 @@ button:focus {
   font-weight: 700;
   transition: 0.5s;
 }
+
+footer{
+  background-color: black;
+}

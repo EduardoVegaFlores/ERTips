@@ -15,4 +15,37 @@ table {
   border: rgb(135, 132, 132) 1.5px solid !important;
 }
 
+.navbar .nav-item .btn:hover {
+  font-size: 150%;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.btnLevel, .btn2, .btn1 {
+  background-color: gray;
+  padding: 10px;
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.btn1 {
+  background-color: yellow;
+}
+
+.btn2 {
+  background-color: skyblue;
+}
+
+.btnLevel:hover, .btn1:hover, .btn2:hover {
+  font-size: 150%;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.btnRadio-1 :checked .lv20 {
+  display: none;
+}
+
 /*# sourceMappingURL=Jackie.css.map */

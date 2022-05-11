@@ -2,9 +2,26 @@ $colorPrincipal: #151516;
 $colorSecundario: white;
 $colorFuerte:black;
 
+$btnstyle: (
+    color: gray,
+    padding: 10px,
+    border: 2px solid black,
+    content: center,
+    margin: auto,
+);
+
+$btnhover:(
+    size: 150%,
+    weight: 700,
+    timer: 0.5s
+);
 body{
     background-color: $colorPrincipal !important;
     color: $colorSecundario !important;
+}
+
+@mixin borderProp {
+    border: black 5px solid;;
 }
 
 footer{
@@ -12,9 +29,56 @@ footer{
 }
 
 .bordeImagen{
-    border: black 5px solid;
+    @include borderProp();
 }
 
 table{
     border: rgb(135, 132, 132) 1.5px solid !important;
 }
+
+
+
+.navbar{
+    .nav-item{
+        .btn:hover{
+            font-size: map-get($btnhover, size);
+            font-weight: map-get($btnhover, weight);
+            transition: map-get($btnhover, timer);
+        }
+    }
+}
+
+
+
+.btnLevel{
+    background-color: map-get($btnstyle, color);
+    padding: map-get($btnstyle, padding);
+    border: map-get($btnstyle, border);
+    text-align: map-get($btnstyle, content);
+    justify-content: map-get($btnstyle, content);
+    color: $colorSecundario;
+}
+
+.btn1{
+    @extend .btnLevel;
+    background-color: yellow;
+}
+
+.btn2{
+    @extend .btnLevel;
+    background-color: skyblue;
+}
+
+.btnLevel:hover{
+    font-size: map-get($btnhover, size);
+    font-weight: map-get($btnhover, weight);
+    transition: map-get($btnhover, timer);
+    
+}
+
+.btnRadio-1 :checked{
+    .lv20{
+        display: none;
+    }
+}
+
